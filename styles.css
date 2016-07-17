@@ -1,0 +1,48 @@
+.imdd-select {
+  position: relative;
+  display: inline; }
+
+.imdd-select-box {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 1px solid #CCC;
+  border-radius: 0 0 3px 3px;
+  background: #FFF;
+  left: 0; }
+
+.imdd-select-box.show {
+  visibility: visible;
+  opacity: 1; }
+
+.imdd-select-button {
+  background: none;
+  border: 1px solid #CCC;
+  border-radius: 0px;
+  padding: 6px 15px 6px 12px; }
+
+.imdd-button {
+  background: none;
+  border: none;
+  padding: 6px 12px;
+  white-space: nowrap; }
+
+.imdd-arrow {
+  position: absolute;
+  right: 6px;
+  color: #666; }
+
+.imdd-button:nth-child(2n) {
+  background: #EEE; }
+
+.imdd-button:hover {
+  background: #DDD; }
+
+div[class^='imdd'],
+button[class^='imdd'] {
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=styles.css.map */
