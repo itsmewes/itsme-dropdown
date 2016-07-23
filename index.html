@@ -8,13 +8,14 @@
 </head>
 
 <body>
-    <select name="op" id="op">
+    <select name="op" id="op" multiple="true">
         <option>option 1</option>
         <option>option 2</option>
         <option>option 3</option>
         <option>option 4</option>
         <option>option 5</option>
     </select>
+    <br><br>
     <select name="colours" id="colours">
         <option value="red">Red</option>
         <option value="yellow">Yellow</option>
@@ -25,7 +26,6 @@
     <script src="js/itsme-dropdown.js"></script>
     <script>
     new itsmeDropdown('op', {
-        width: 150,
         placeholder: 'Please Select'
     });
     new itsmeDropdown('colours');
