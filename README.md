@@ -36,5 +36,4 @@ new itsmeDropdown('colours', {
 | Key | Default | Description |
 | --- | --- | --- |
 | placeholder | -- Select -- | The text set to be shown by default before the options are shown. |
-| width | The size of the placeholder | The min-width of the element. |
 | arrow | \u25BE | The arrow indicator to show that it is a dropdown |
